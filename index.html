@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styledos.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -15,12 +14,11 @@
 </head>
 <body>
     <!-- Sección del Menú  -->
-    <div class="tudo">
-    <section class="menu">
-        <header class="menu__header">
+    <header>
+        <div class="menu__logo">
             <img src="assets\vector.png">
-            <h3 class="menu__title">Nahiara Delgado</h3>
-        </header>
+            <h3 class="menu__title"></h3>Nahiara Delgado</h3>
+        </div>
         <nav>
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
@@ -30,18 +28,20 @@
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
                 <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">nahiara57@gmail.com</a></li>
+            <li class="menu__list__item__c"><a href="#contacto">nahiaraagostina57@gmail.com</a></li>
         </nav>
-    </section>
-    </div>
+    </header>
     
+    <main>
     <!-- Sección del Header/Title/Hero -->
-    <section class="title">
+    <section class="hero">
         <div class="title__div">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es Nahiara y soy Front end developer</h2>
-                <h3 class="title__subsection">Actualmente estoy estudiando participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <br>
+                <h3 class="title__subsection"> Actualmente estoy estudiando participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <br>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
                     <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
@@ -208,6 +208,7 @@
                     </div>
         </div>
         </div>  
+    </main>
 
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">

@@ -1,0 +1,30 @@
+.title__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.title__profile{
+    width: 88px;
+    height: 88px;
+}
+
+.title__bio{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.title__subsection{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.title__network{
+    gap:8px;
+}
+
+.title__network__item{
+    font-weight: 600;
+    font-size: 14px;
+}

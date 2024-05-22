@@ -1,0 +1,46 @@
+.menu__logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu__title{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.menu__list{
+    display: none;
+}
+
+.menu__list li a{
+    color: #464646;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (min-width:1024px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .menu__logo{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 16px;
+        gap: 32px;
+    }
+
+    .menu__list__item__c{
+        display: none;
+    }
+}
