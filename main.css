@@ -5,11 +5,14 @@ en las secciones señaladas */
 @import url("styles/menu.css");
 @import url("styles/hero.css");
 @import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/academic.css");
 
 
 body {
     box-sizing: border-box;
-    background-color: rgb(248, 236, 250);
+    background-color: #f6eaf9;
     font-family: 'Raleway';
     color: #464646;
     overflow-x: hidden;
@@ -33,16 +36,7 @@ a{
     color: var(#e0c5dc);
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
+/*Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
@@ -71,8 +65,9 @@ section.hero{
 /*Sección About*/
 
 section.about{
-
+    display: flex;
 }
+
 
 /*Sección Hobbies*/
 
@@ -83,7 +78,7 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
-
+    display: flex;
 }
 
 /* experiencia*/

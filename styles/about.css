@@ -1,0 +1,17 @@
+.about__container{
+    background-color: #dfcdd8;
+    gap: 10px;
+}
+
+.about__title{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 16px;
+}
+
+.about__paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px;
+}

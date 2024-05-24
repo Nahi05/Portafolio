@@ -1,0 +1,7 @@
+.academic{
+    display: flex;
+    gap: 22px;
+    padding-left: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
