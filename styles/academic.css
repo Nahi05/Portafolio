@@ -1,7 +1,58 @@
-.academic{
+
+#formacion {
+    background-color: #dfcdd8;
+    width: 100%;
+}
+
+.academic__line{
     display: flex;
-    gap: 22px;
-    padding-left: 14px;
+    gap: 16px;
+    padding: 16px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.academic__title{
+    padding: 17px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+.academic__imagen{
+    display: flex;
+    background-color: white;
+    width: 296px;
+    height: 118px;
+    gap: 8px;
+    padding: 16px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.academic__box ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.academic__img{
+    display: flex;
+    width: 84px;
+    height: 58px;
+    
+}
+
+.academic__name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.academic__subtext{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
 }

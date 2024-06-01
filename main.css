@@ -8,6 +8,7 @@ en las secciones señaladas */
 @import url("styles/skills.css");
 @import url("styles/hobbies.css");
 @import url("styles/academic.css");
+@import url("styles/experiencia.css");
 
 
 body {
@@ -45,7 +46,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 32px;
+    padding: 16px;
 }
 
 /*Sección hero*/
@@ -53,7 +54,8 @@ header{
 section.hero{
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 16px;
+    gap: 16px;
 
     .title__network{
        display: flex;
@@ -79,6 +81,7 @@ section.hobbies{
 
 section.academic{
     display: flex;
+    flex-direction: column;
 }
 
 /* experiencia*/

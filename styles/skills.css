@@ -1,16 +1,17 @@
 .skills__line{
     display: flex;
-    gap: 22px;
-    padding-left: 14px;
+    gap: 16px;
+    padding: 16px;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 33px;
 }
 
 .skills__title{
     padding: 17px;
     font-size: 22px;
     font-weight: 700;
-    line-height: 25.83px;
+    line-height: 26px;
     text-align: center;
 }
 

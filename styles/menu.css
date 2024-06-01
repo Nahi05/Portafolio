@@ -2,11 +2,14 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    width: 134px;
+    height: 24px;
 }
 
 .menu__title{
     font-weight: 700;
     font-size: 16px;
+    line-height: 19px;
 }
 
 .menu__list{
