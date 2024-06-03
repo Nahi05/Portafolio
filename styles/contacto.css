@@ -1,0 +1,60 @@
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px;
+}
+
+.formcontato__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.formcontato__subtext{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+}
+
+.formcontato__input{
+    width: 296px;
+    height: 56px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.formcontato__textarea{
+    width: 296px;
+    height: 133px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.formcontato__botao{
+    display:flex;
+    width: 133px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #33042c;
+    border: none;
+    color: #f6eaf9;
+}

@@ -9,6 +9,8 @@ en las secciones señaladas */
 @import url("styles/hobbies.css");
 @import url("styles/academic.css");
 @import url("styles/experiencia.css");
+@import url("styles/contacto.css");
+@import url("styles/footer.css");
 
 
 body {
@@ -20,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    text-decoration: none;
 }
 
 main{
@@ -33,7 +36,6 @@ ol, ul,li {
 }
 
 a{
-    text-decoration: none;
     color: var(#e0c5dc);
 }
 
@@ -87,7 +89,8 @@ section.academic{
 /* experiencia*/
 
 section.experience{
-
+    display: flex;
+    flex-direction: column;
 }
 
 /*Contacto*/
