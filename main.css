@@ -22,7 +22,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    text-decoration: none;
 }
 
 main{
@@ -33,10 +32,12 @@ main{
 
 ol, ul,li {
     list-style: none;
+    text-decoration: none;
 }
 
 a{
-    color: var(#e0c5dc);
+    color: #464646;
+    text-decoration: none;
 }
 
 /*Enlace de la documentación oficial!
@@ -72,6 +73,9 @@ section.about{
     display: flex;
 }
 
+section.skills{
+   
+}
 
 /*Sección Hobbies*/
 
@@ -82,8 +86,7 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
-    display: flex;
-    flex-direction: column;
+   
 }
 
 /* experiencia*/
@@ -111,32 +114,222 @@ section.footer{
 
 /* Menú */
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
 /*title*/
+
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        padding: 10px 15px;
+    }
+
+    .title__profile{
+        width: 146px;
+        height: 146px;
+        border-radius: 100%;
+    }
+
+/*About*/
+
+.about__title{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px 30px;
+}
+
+.about__paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0px 30px;
+    padding-bottom: 15px;
+}
 
 /*Skills*/
 
+.skills__title{
+    margin-top: 30px;
+}
+
+.skills__line{
+    padding: 0px 30px;
+    margin: 10px 0px;
+}
+
+.skills__box{
+    width: 189px;
+    height: 90px;
+}
+
 /*Hobbies*/
 
+.hobbies__line{
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.hobbies__box{
+    width: 189px;
+    height: 90px;
+}
+
 /*Formación Académica*/
+
+#formacion{
+   height: 300px;
+}
+
+.academic__box ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.academic__imagen{
+    width: 224px;
+    height: 118px;
+    padding: 16px;
+}
+
+.academic__img{
+    width: 84px;
+    height: 90px;
+}
+
+.academic__text{
+    width: 224px;
+}
 
 /*Experiencia Profesional*/
 
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
+/*Desktop*/
+@media (min-width: 1140px) {
 
 /*Menu*/
 
+header{
+    padding: 10px 32px;
+}
+
+.menu__logo{
+    padding-top: 10px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 32px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-top: 10px;
+    align-items: center;
+}
+
 /*Titulo*/
 
+.title__profile{
+    width: 368px;
+    height: 368px;
+}
+
+.title__bio{
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.title__subsection{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.title__network__item{
+    font-size: 16px;
+}
+
 /*Sección sobre mi*/
+.about__container{
+    padding-bottom: 40px;
+}
+
+.about__title{
+    font-size: 32px;
+}
+
+.about__paragraph{
+    font-size: 16px;
+    line-height: 19px;
+}
 
 /*Skills*/
 
+.skills__line{
+    padding: 0px 30px;
+}
+
+.skills__box{
+    width: 135px;
+    height: 139px;
+}
+
 /*Hobbies*/
+
+.hobbies__box{
+    width: 135px;
+    height: 139px;
+}
  
 /*Formación Académica*/
+#formacion{
+    height: 400px;
+ }
+
+.academic__title{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.academic__box ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.academic__imagen{
+    width: 224px;
+    height: 118px;
+    padding: 16px;
+}
+
+.academic__img{
+    width: 84px;
+    height: 90px;
+}
+
+.academic__name{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.academic__subtext{
+    font-size: 16px;
+    line-height: 19px;
+}
 
 /*Experiencia Profesional*/
 

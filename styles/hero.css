@@ -4,7 +4,7 @@
 }
 
 .title__profile{
-    border-radius: 50%;
+    border-radius: 100%;
     width: 98px;
     height: 98px;
 }
@@ -22,7 +22,7 @@
 }
 
 .title__network{
-    gap:8px;
+    gap:5px;
 }
 
 .title__network__item{
@@ -30,85 +30,3 @@
     font-size: 14px;
 }
 
-@media (min-width: 768px) {
-    .title__div{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        width: Fill (768px)px;
-        height: Hug (210px)px;
-        gap: 32px;
-        opacity: 0px;
-
-    }
-    
-    .title__profile{
-        width: 146px;
-        height: 146px;
-    }
-    
-    .title__bio{
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-    }
-    
-    .title__subsection{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    
-    .title__network{
-        gap:8px;
-    }
-    
-    .title__network__item{
-        font-weight: 600;
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 1024px){
-    .title__div{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        width: 1,136px;
-        height: 368px;
-        margin: 0px 32px;
-        gap: 32px;
-        opacity: 0px;
-
-    }
-    
-    .title__profile{
-        width: 368px;
-        height: 368px;
-    }
-    
-    .title__bio{
-        font-weight: 700;
-        font-size: 52px;
-        line-height: 61px;
-    }
-    
-    .title__subsection{
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 26px;
-    }
-    
-    .title__network{
-        width: 467px;
-        height: 24px;
-        gap: 32px;
-    }
-    
-    .title__network__item{
-        font-weight: 600;
-        font-size: 14px;
-    }
-}

@@ -1,9 +1,10 @@
 .hobbies__line{
     display: flex;
-    gap: 16px;
-    padding-left: 32px;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 8px;
+    gap: 10px;
+    padding-bottom: 10px;
 }
 
 .hobbies__title{
@@ -19,8 +20,8 @@
     display: flex;
     align-items: self-end;
     background-color: white;
-    width: 156px;
-    height: 118px;
+    width: 122px;
+    height: 100px;
     gap: 8px;
     padding: 16px;
 }

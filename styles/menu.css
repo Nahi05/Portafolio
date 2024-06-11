@@ -4,10 +4,10 @@
     gap: 8px;
     width: 134px;
     height: 24px;
+    font-weight: 700;
 }
 
 .menu__title{
-    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 }
@@ -16,42 +16,8 @@
     display: none;
 }
 
-.menu__list li a{
-    color: #464646;
+.menu__list__item__c{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
-@media (min-width:1024px){
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 1,136px;
-        height: 20px;
-        margin: 0px 32px;
-    }
-    
-    .menu__logo{
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .menu__title{
-        font-weight: 700;
-        font-size: 16px;
-    }
-    
-    .menu__list{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 16px;
-        gap: 32px;
-    }
-
-    .menu__list__item__c{
-        display: none;
-    }
-}
