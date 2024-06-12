@@ -41,8 +41,13 @@
     font-weight: 400;
     font-size: 16px;
     border: none;
-    border-bottom: 2px solid  gray;
+    border-bottom: 3px solid  gray;
     padding: 0 12px;
+    outline: none;
+}
+
+.formcontato__input:hover{
+    border-bottom-color: #680b5a;
 }
 
 .formcontato__textarea{
@@ -53,9 +58,13 @@
     font-weight: 400;
     font-size: 16px;
     border: none;
-    border-bottom: 2px solid  gray;
+    border-bottom: 3px solid  gray;
     padding: 10px 12px;
 
+}
+
+.formcontato__textarea:hover{
+    border-bottom-color: #680b5a;
 }
 
 .formcontato__botao{

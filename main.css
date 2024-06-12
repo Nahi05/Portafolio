@@ -1,6 +1,3 @@
-/*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
 @import url("styles/reset.css");
 @import url("styles/menu.css");
 @import url("styles/hero.css");
@@ -40,9 +37,6 @@ a{
     text-decoration: none;
 }
 
-/*Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
 /*Sección Menu*/
 
 header{
@@ -73,41 +67,12 @@ section.about{
     display: flex;
 }
 
-section.skills{
-   
-}
-
-/*Sección Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiencia Académica*/
-
-section.academic{
-   
-}
-
 /* experiencia*/
 
 section.experience{
     display: flex;
     flex-direction: column;
 }
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
 
 /*Tablet*/
 @media (min-width: 768px) {
@@ -212,6 +177,37 @@ header{
 
 /*Experiencia Profesional*/
 
+.experience__img{
+    width: 704px;
+    height: 320px;
+}
+
+/*Contacto*/
+
+.formcontato__subtext{
+    width: 656px;
+}
+
+.formcontato__form{
+    margin: 5px;
+}
+
+.formcontato__input{
+    width: 704px;
+    height: 56px;
+}
+
+.formcontato__textarea{
+    width: 704px;
+}
+
+.formcontato__botao{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-start;
+}
+
 }
 
 /*Desktop*/
@@ -286,11 +282,21 @@ nav{
     height: 139px;
 }
 
+.skills__title{
+    font-size: 32px;
+    line-height: 36px;
+}
+
 /*Hobbies*/
 
 .hobbies__box{
     width: 135px;
     height: 139px;
+}
+
+.hobbies__title{
+    font-size: 32px;
+    line-height: 36px;
 }
  
 /*Formación Académica*/
@@ -333,8 +339,100 @@ nav{
 
 /*Experiencia Profesional*/
 
- /*Contacto*/
+.experience__section__title{
+    font-size: 32px;
+    line-height: 38px;
+}
 
-/*Footer*/
+.experience__box{
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience__img{
+    width: 752px;
+    height: 406px;
+}
+
+.experience__info-containe{
+    display: flex;
+
+}
+
+.experience__title{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.experience__text{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.experiencia__botao--repo{
+    display: flex;
+    width: 116px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.experience__botao--demo{
+    display:flex;
+    width: 105px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+ /*Contacto*/
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 64px;
+}
+
+.formcontato__text{
+    width: 656px;
+    height: 596px;
+}
+
+.formcontato--esquerda{
+    display: flex;
+    width: 464px;
+    height: 596px;
+}
+
+.formcontato__title{
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.formcontato__input{
+    width: 656px;
+}
+
+.formcontato__textarea{
+    width: 656px;
+}
+
+.formcontato__botao{
+    display:flex;
+    width: 144px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
 
 }
